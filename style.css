@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/be/52/16/be5216162d0373b5d99d35a39e8ef04d.gif);
+  }
+  
+  body .noteCalculator{
+    min-height: 400px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+    max-height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .page-logo {
+    width: 200px;
+    margin: 20px auto;
+  }
+  
+  .inputNotes{
+    margin: 5px auto;
+    width: 12rem;
+    background-color: rgb(165, 47, 92);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 3px 12px #8a4d75;
+  }
+  .inputNotes::placeholder{
+    color: #000000;
+  }
+  .calcNotes{
+  margin: 2px auto;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 20px;
+  color: #000000;
+  background-color: rgb(167, 18, 87);
+  box-shadow: 1px 3px 12px #bb2658;
+  }
+
+  #calcResultadoLayer{
+    color: #000000;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .testImage{
+    width: 20rem;
+    position: center bottom;
+    margin: 20px auto;
+  }
